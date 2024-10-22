@@ -11,12 +11,12 @@ global.email ="saimsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
 
-global.mongodb= process.env.MONGODB_URI || "mongodb+srv://Troy99:TroyDGamer99@cluster.agfzi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster"
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://Troy99:TroyDGamer99@cluster.agfzi.mongodb.net/?retryWrites=true&w=majority"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
-global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://Troy99:TroyDGamer99@cluster.agfzi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster"
+global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://Troy99:TroyDGamer99@cluster.agfzi.mongodb.net/?retryWrites=true&w=majority"
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github=process.env.GITHUB|| "https://github.com/GlobalTechInfo/SUHAIL-XMD";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
@@ -49,14 +49,14 @@ global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'avail
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,234xxxxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,234704xxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,234xxxxxxxxxx";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2347040327910,234xxxxxxxxxx";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,234704xxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2347040327910,234704xxxxxxx";
 
 global.api_smd = "https://api.kyuurzy.site/api/download/aio" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://suhail-md-vtsf.onrender.com";
@@ -84,7 +84,7 @@ module.exports = {
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "yepeTQaFk7r9ymusihgXYvdN",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
